@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background:;
+}
+main{
+	width: 98%;
+	height: 300px;
+	margin: 50px auto;
+	border: 1px solid grey;
+	display: grid;
+	grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3 , 1fr)150px;
+    color: white;
+    grid-gap: 10px;
+}
+.div1{
+	  background-color: #3A3431;
+      grid-column: 1/-1;
+      text-align: center;
+      height:90%;
+      color:#FFFFFF;
+      
+}
+.div1 p{
+	 text-align: center;
+	 margin-top:8px;
+	 font-size: 28px; 
+    
+
+}
+
+.div2{
+	   background-color: #24BC71; 
+}
+
+.div2 p{
+        text-align: center;
+	     margin-top:20px;
+	      font-size: 20px; 
+    
+
+}
+
+.div3{
+	   background-color: red;
+}
+.div3 p{
+	  text-align: center;
+	  margin-top:20px;
+	   font-size: 20px; 
+    
+}
+
+.div4{
+	   background-color: #5259F2;
+}
+.div4 p{
+		 text-align: center;
+	    margin-top:20px;
+	    font-size: 20px; 
+}
+
+.div5{
+	   background-color: #2B303E;
+       grid-row:2/4;
+       grid-column: 4/5;
+}
+.div5 p{
+        text-align: center;
+	    margin-top:20px;
+	    font-size: 20px; 
+}
+.div5 ul li{
+	text-align: center;
+	padding: 5px;
+	font-size: 18px;
+}
+.div5 ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+
+.div6{
+	  background-color:green;
+      grid-column:1/ 4;
+      height:100%;
+}
+.div6 h1{
+       text-align: center;
+       margin-top: 4px;
+
+}
+.div6 p{
+	text-align: justify;
+	margin-left:6px;
+	margin-right:7px;
+}
+
+.div7{
+	  background-color: #01BCD7;
+      grid-column: 1/-1;
+}
+.div7 p{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 7px;
+}
